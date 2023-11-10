@@ -21,6 +21,6 @@ a:link, a:visited {
 a:hover {
     color: grey;
 }
-ubicacion {
+.ubicacion {
     padding-top: 70px;
 }
