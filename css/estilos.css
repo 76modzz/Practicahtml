@@ -21,6 +21,11 @@ a:link, a:visited {
 a:hover {
     color: grey;
 }
-.ubicacion {
-    padding-top: 70px;
+.foto {
+    width: 270px;
+    height: 230px;
+}
+.fuente {
+    font-size:medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
