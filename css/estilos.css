@@ -29,3 +29,7 @@ a:hover {
     font-size:medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+summary {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer ;
+}
