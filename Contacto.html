@@ -24,13 +24,12 @@
             </nav>
         </header>
         <form action="https://localhost/proceso.php" method="get" >  <!--dentro del action va la direccion a donde quremos que vayan las respuestas, en nuestro caso solo ponemos el fichero.php--><!--dentro del method puede ser get/ post pero nunca los dos , post es para que no muestre las respuestas y get para que si -->
-            Nombre y Apellidos <input type="text" name="nombre">
+            Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+">
             <br>
-            <p>
-                <input type="radio" name="sexo" value="h"> hombre 
-                <input type="radio" name="sexo" value="m"> mujer
-            </p>
-            hola
+            Correo Electrónico <input type="email" type="email">
+            <br>
+            Teléfono <input type="tel" type="tel">
+            <br>
             <input type="submit" value="enviar">
         </form>
     </body>
