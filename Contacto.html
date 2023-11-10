@@ -23,7 +23,12 @@
                 </ul>
             </nav>
         </header>
+
         <form action="https://localhost/proceso.php" method="get" >  
+
+        <div class="faq">
+        <form action="https://localhost/proceso.php" method="get" >  <!--dentro del action va la direccion a donde quremos que vayan las respuestas, en nuestro caso solo ponemos el fichero.php--><!--dentro del method puede ser get/ post pero nunca los dos , post es para que no muestre las respuestas y get para que si -->
+
             Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+">
             <br>
             Correo Electrónico <input type="email" type="email">
@@ -50,5 +55,6 @@
             </optgroup>
 
         </form>
+    </div>
     </body>
 </html>
