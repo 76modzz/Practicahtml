@@ -1,18 +1,20 @@
 header {
     background-color: #444;
     color: #fff;
-    padding: 20px;
-    font-family:fantasy
+    padding: 10px;
+    font-family:fantasy;
+    position:fixed;
+    top: 0px;
 }
 body {
     background-color: #f8d0ed;
 }
 nav ul {
     list-style-type: none;
-}
+}           
 nav li {
     display: inline;
-    margin-right:70px;
+    margin-right:60px;
 }
 a:link, a:visited {
    color: white;
@@ -28,4 +30,13 @@ a:hover {
 .fuente {
     font-size:medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+summary {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+.faq {
+    padding-left: 500px;
+    padding-top: 50px;
 }
