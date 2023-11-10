@@ -31,5 +31,6 @@ a:hover {
 }
 summary {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    cursor: pointer ;
+    cursor: pointer;
+    font-weight: bold;
 }
