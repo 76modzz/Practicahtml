@@ -45,4 +45,7 @@ footer {
     padding-left: 600px;
     display: inline-flex;
 }
-
+h4 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
