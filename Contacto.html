@@ -25,7 +25,7 @@
         </header> 
         
         <div class="faq">
-        <form action="https://localhost/proceso.php" method="get" ><!--dentro del action va la direccion a donde quremos que vayan las respuestas, en nuestro caso solo ponemos el fichero.php--><!--dentro del method puede ser get/ post pero nunca los dos , post es para que no muestre las respuestas y get para que si -->
+        <form action="https://localhost/proceso.php" method="get">
 
             Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+">
             <br>
@@ -38,7 +38,7 @@
                 <input type="radio" name="sexo" value="H"> Hombre 
                 <input type="radio" name="sexo" value="M"> Mujer
                 <input type="radio" name="sexo" value="Ns"> NS/NC
-            <p>
+                <p>
           Selecciona tu provincia:
             <select name="opciones" size="1" >
                 <optgroup label="Provincia">
@@ -51,8 +51,13 @@
                 <option value="Malaga" selected>Malaga</option>
                 <option value="Sevilla">Sevilla</option>
             </optgroup>
+            </select>
         </p>
+        
+        <br>Motivo del contacto:<br>
         <textarea rows="10" cols="30" maxlength="300"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
         </form>
     </div>
     <footer>
