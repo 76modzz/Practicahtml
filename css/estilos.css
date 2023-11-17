@@ -45,8 +45,8 @@ footer {
     position: absolute;
 }
 h4 {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .tabla {
     background-color: #444;
@@ -63,5 +63,21 @@ h4 {
     margin-top: 30px;
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside{
+    background-color: red;
+    color: white;
+    float: right;
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+}
+.asiderecha{
+    background-color: red;
+    color: white;
+    float: left;
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
 }
 
