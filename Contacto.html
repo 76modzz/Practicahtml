@@ -25,7 +25,7 @@
         </header> 
         
         <div class="faq">
-        <form action="https://localhost/proceso.php" method="get" style="padding-top: 40px;">
+        <form action="https://localhost/proceso.php" method="get">
 
             Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+">
             <br>
@@ -38,7 +38,7 @@
                 <input type="radio" name="sexo" value="H"> Hombre 
                 <input type="radio" name="sexo" value="M"> Mujer
                 <input type="radio" name="sexo" value="Ns"> NS/NC
-            <p>
+                <p>
           Selecciona tu provincia:
             <select name="opciones" size="1" >
                 <optgroup label="Provincia">
@@ -51,8 +51,12 @@
                 <option value="Malaga" selected>Malaga</option>
                 <option value="Sevilla">Sevilla</option>
             </optgroup>
+            </select>
         </p>
+        
+        <br>Motivo del contacto:
         <textarea rows="10" cols="30" maxlength="300"></textarea>
+        <button>Enviar Formulario</button>
         </form>
     </div>
     <footer>
