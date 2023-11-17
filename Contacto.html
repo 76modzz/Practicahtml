@@ -25,13 +25,12 @@
         </header> 
         
         <div class="faq">
-            <strong><i><h1>Formulario de Contacto</h1></i></strong>
-        <form action="https://localhost/procesamiento_formulario.ph" method="get" style="padding-top: 10px;"><!--dentro del action va la direccion a donde quremos que vayan las respuestas, en nuestro caso solo ponemos el fichero.php--><!--dentro del method puede ser get/ post pero nunca los dos , post es para que no muestre las respuestas y get para que si -->
+        <form action="https://localhost/proceso.php" method="get" ><!--dentro del action va la direccion a donde quremos que vayan las respuestas, en nuestro caso solo ponemos el fichero.php--><!--dentro del method puede ser get/ post pero nunca los dos , post es para que no muestre las respuestas y get para que si -->
 
             Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+">
-            <br><br>
+            <br>
             Correo Electrónico <input type="email" type="email">
-            <br><br>
+            <br>
             Teléfono <input type="tel" type="tel">
             <br>
             <p>
@@ -39,7 +38,7 @@
                 <input type="radio" name="sexo" value="H"> Hombre 
                 <input type="radio" name="sexo" value="M"> Mujer
                 <input type="radio" name="sexo" value="Ns"> NS/NC
-                <p>
+            <p>
           Selecciona tu provincia:
             <select name="opciones" size="1" >
                 <optgroup label="Provincia">
@@ -52,12 +51,8 @@
                 <option value="Malaga" selected>Malaga</option>
                 <option value="Sevilla">Sevilla</option>
             </optgroup>
-            </select>
         </p>
-        
-        Motivo del contacto<br>
         <textarea rows="10" cols="30" maxlength="300"></textarea>
-    
         </form>
     </div>
     <footer>
@@ -72,9 +67,10 @@
             </dt>
          </dl>
          <dl><b>Twitter/X</b>
+            
             <dt>  <a title="@Vascoinformatic" href="https://twitter.com/vascoinformatic">  <img src="imagenes/twitter.png" width="50"  ></a> </dt>
                  </dt>
          </dl>
-    </footer>
+</footer>
 </body>
 </html>
