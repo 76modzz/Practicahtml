@@ -26,12 +26,18 @@
         </header>
         <div class="faq" style="padding-top: 50px;">
         <form action="https://localhost/presupuesto.php" method="get">
+
+            <label>Rango Precio</label><br/>
+            <input type="range" id="precio" 
+                   min="0" max="500" step="10" value="30"> <br />
+            
+           
             <p>
                 Selecciona CPU:
                   <select name="opciones" size="1" >
                       <optgroup label="CPU">      
-                      <option value="AMD">AMD Ryzen 7 5800X 3.8GHz</option>
-                      <option value="Intel">Intel Core i7-14700K 3.4/5.6GHz Box</option>
+                      <option value="AMD">AMD Ryzen 7 5800X 3.8GHz 475,99€</option>
+                      <option value="Intel">Intel Core i7-14700K 3.4/5.6GHz Box 479.90€</option>
                       
                   </optgroup>
                   </select>
@@ -40,8 +46,9 @@
                 Selecciona Periférico entrada:
                   <select name="opciones" size="1" >
                       <optgroup label="Periferico">      
-                      <option value="Teclado">Newskill Serike V2 Teclado Mecánico Gaming RGB Negro NewSwitch Red</option>
-                      <option value="Micro">Owlotech X2 Streaming Microfono Condensador</option>   
+                      <option value="Teclado">Newskill Serike V2 Teclado Mecánico Gaming RGB Negro NewSwitch Red 99,99€	</option>
+                      <option value="Micro">Owlotech X2 Streaming Microfono Condensador 25,99€
+                    </option>   
                   </optgroup>
                   </select>
               </p>
@@ -49,8 +56,9 @@
                 Selecciona Periférico salida:
                   <select name="opciones" size="1" >
                       <optgroup label="Periferico">      
-                      <option value="Monitor">Newskill Icarus IC27I4K144 27" LED IPS UltraHD 4K 144Hz G-Sync Compatible	</option>
-                      <option value="Altavoz">Tempest M20 RGB Master 2.0 Altavoces Gaming con Bluetooth Negros</option> 
+                      <option value="Monitor">Newskill Icarus IC27I4K144 27" LED IPS UltraHD 4K 144Hz G-Sync Compatible	499,98€	</option>
+                      <option value="Altavoz">Tempest M20 RGB Master 2.0 Altavoces Gaming con Bluetooth Negros 13,58€
+                    </option> 
                   </optgroup>
                   </select>
               </p>
@@ -58,16 +66,16 @@
                 Selecciona Periférico Entrada Salida:
                   <select name="opciones" size="1">
                       <optgroup label="Periferico">      
-                      <option value="Router">TP-Link M7010 Router Móvil WiFi 4G LTE</option>
-                      <option value="PenDrive">Sandisk Ultra Flair 256GB USB 3.0 </option> 
+                      <option value="Router">TP-Link M7010 Router Móvil WiFi 4G LTE 47,99€</option>
+                      <option value="PenDrive">Sandisk Ultra Flair 256GB USB 3.0 18,99€
+                    </option> 
                   </optgroup>
                   </select>
               </p>
               <p>
                 Selecciona Sistema Operativo:</p>
-                  <input type="checkbox" name="Almacenamiento" value="SSD">sKingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4	 
-                  <input type="checkbox" name="Almacenamiento" value="HDD">LiWestern Digital Blue HDD 1TB 7200rpm SATA3
-                  nux
+                  <input type="checkbox" name="Almacenamiento" value="SSD">Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4 51,98€		  
+                  <input type="checkbox" name="Almacenamiento" value="HDD">LiWestern Digital Blue HDD 1TB 7200rpm SATA3 48,00€
             <p>
                 Selecciona Sistema Operativo:</p>
                   <input type="radio" name="SO" value="W"> Windows 
