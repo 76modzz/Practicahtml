@@ -24,7 +24,7 @@
                 </ul>
             </nav>
         </header>
-        <div class="faq">
+        <div class="faq" style="padding-top: 50px;">
         <form action="https://localhost/presupuesto.php" method="get">
             <p>
                 Selecciona CPU:
@@ -64,23 +64,10 @@
                   </select>
               </p>
               <p>
-                Selecciona Almacenamiento Principal:
-                  <select name="opciones" size="1">
-                      <optgroup label="Almacenamiento">      
-                      <option value="SSD">Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4</option>
-                      <option value="HDD">Western Digital Blue HDD 1TB 7200rpm SATA3</option> 
-                  </optgroup>
-                  </select>
-              </p>
-              <p>
-                Selecciona Almacenamiento Secundario:
-                  <select name="opciones" size="1">
-                      <optgroup label="Almacenamiento">      
-                      <option value="SSD">Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4</option>
-                      <option value="HDD" selected>Western Digital Blue HDD 1TB 7200rpm SATA3</option> 
-                  </optgroup>
-                  </select>
-              </p>
+                Selecciona Sistema Operativo:</p>
+                  <input type="checkbox" name="Almacenamiento" value="SSD">sKingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4	 
+                  <input type="checkbox" name="Almacenamiento" value="HDD">LiWestern Digital Blue HDD 1TB 7200rpm SATA3
+                  nux
             <p>
                 Selecciona Sistema Operativo:</p>
                   <input type="radio" name="SO" value="W"> Windows 
@@ -101,7 +88,7 @@
                   </optgroup>
                   </select>
               </p>
-            <br>
+            
             Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+" required>
             <br> <br>
             Correo Electrónico <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
@@ -112,7 +99,7 @@
             <input type="reset" value="Borrar"> 
         </form>
     </div>
-    
+        
         <footer>
             <dl><b>Facebook&nbsp&nbsp</b>
                 <dt>
