@@ -25,22 +25,26 @@
             </nav>
         </header>
         <main>
+            <section>
         <div class="faq" style="padding-top: 50px;">
         <form action="https://localhost/presupuesto.php" method="get">
-
+            <article>
             <label>Rango Precio</label><br/>
             <input type="range" id="precio" 
                    min="0" max="500" step="10" value="30"> <br />
             <p>
+            </article>
+            <article>
                 Selecciona CPU:
                   <select name="opciones" size="1" >
                       <optgroup label="CPU">      
                       <option value="AMD">AMD Ryzen 7 5800X 3.8GHz 475,99€</option>
                       <option value="Intel">Intel Core i7-14700K 3.4/5.6GHz Box 479.90€</option>
-                      
                   </optgroup>
                   </select>
               </p>
+            </article>
+            <article>
               <p>
                 Selecciona Periférico entrada:
                   <select name="opciones" size="1" >
@@ -51,6 +55,8 @@
                   </optgroup>
                   </select>
               </p>
+            </article>
+            <article>
               <p>
                 Selecciona Periférico salida:
                   <select name="opciones" size="1" >
@@ -61,6 +67,8 @@
                   </optgroup>
                   </select>
               </p>
+            </article>
+            <article>
               <p>
                 Selecciona Periférico Entrada Salida:
                   <select name="opciones" size="1">
@@ -71,16 +79,22 @@
                   </optgroup>
                   </select>
               </p>
+            </article>
+            <article>
               <p>
                 Selecciona Sistema Operativo:</p>
                   <input type="checkbox" name="Almacenamiento" value="SSD">Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4 51,98€		  
                   <input type="checkbox" name="Almacenamiento" value="HDD">LiWestern Digital Blue HDD 1TB 7200rpm SATA3 48,00€
-            <p>
+                </article>
+                <article>
+                  <p>
                 Selecciona Sistema Operativo:</p>
                   <input type="radio" name="SO" value="W"> Windows 
                   <input type="radio" name="SO" value="L"> Linux
                   <input type="radio" name="SO" value="M"> Mac
                   <input type="radio" name="SO" value="N"> Sin SO
+                </article>
+                <article>
             <p>
                 Selecciona el color de la caja:
                   <select name="opciones" size="1" >
@@ -95,7 +109,8 @@
                   </optgroup>
                   </select>
               </p>
-            
+            </article>
+            <article>
             Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+" required>
             <br> <br>
             Correo Electrónico <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
@@ -104,8 +119,11 @@
             <br><br>
             <input type="submit" value="Enviar"> 
             <input type="reset" value="Borrar"> 
-        </form>
+        
     </div>
+</article>
+</form>
+</section>
 </main>
         <footer>
             <dl><b>Facebook&nbsp&nbsp</b>

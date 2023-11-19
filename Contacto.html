@@ -23,22 +23,28 @@
                 </ul>
             </nav>
         </header> 
-        
+        <main>
+            <section>
         <div class="faq">
         <form action="https://localhost/proceso.php" method="get">
             <br> <br>
+            <article>
             Nombre y Apellidos <input type="text" name="nombre" pattern="[a-zA-Z]+">
             <br> <br>
             Correo Electrónico <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
             <br> <br>
             Teléfono <input type="tel" type="tel" pattern="[0-9]{9}">
             <br> <br>
+        </article>
+        <article>
             <p>
             Selecciona tu sexo:</p>
               <input type="radio" name="sexo" value="H"> Hombre 
               <input type="radio" name="sexo" value="M"> Mujer
               <input type="radio" name="sexo" value="Ns"> NS/NC
                 <p>
+                </article>
+                <article>
           Selecciona tu provincia:
             <select name="opciones" size="1" >
                 <optgroup label="Provincia">
@@ -53,6 +59,8 @@
             </optgroup>
             </select>
         </p>
+    </article>
+    <article>
         
         <br>Motivo del contacto:<br>
         <textarea rows="10" cols="30" maxlength="300"></textarea>
@@ -61,9 +69,11 @@
         <input type="reset" value="Borrar"> 
         </form>
         <br>
-        
+    </article>
         <audio src="videos/musica_fondo.mp3" autoplay="autoplay" loop="loop" controls style="padding-left: 400px;"></audio>
     </div>
+    </section>
+</main>
     <footer>
         <dl><b>Facebook&nbsp&nbsp</b>
             <dt>
@@ -80,6 +90,7 @@
             <dt>  <a title="@Vascoinformatic" href="https://twitter.com/vascoinformatic">  <img src="imagenes/twitter.png" width="50"  ></a> </dt>
                  </dt>
          </dl>
+        
 </footer>
 </body>
 </html>
