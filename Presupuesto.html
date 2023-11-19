@@ -27,6 +27,61 @@
         <div class="faq">
         <form action="https://localhost/presupuesto.php" method="get">
             <p>
+                Selecciona CPU:
+                  <select name="opciones" size="1" >
+                      <optgroup label="CPU">      
+                      <option value="AMD">AMD Ryzen 7 5800X 3.8GHz</option>
+                      <option value="Intel">Intel Core i7-14700K 3.4/5.6GHz Box</option>
+                      
+                  </optgroup>
+                  </select>
+              </p>
+              <p>
+                Selecciona Periférico entrada:
+                  <select name="opciones" size="1" >
+                      <optgroup label="Periferico">      
+                      <option value="Teclado">Newskill Serike V2 Teclado Mecánico Gaming RGB Negro NewSwitch Red</option>
+                      <option value="Micro">Owlotech X2 Streaming Microfono Condensador</option>   
+                  </optgroup>
+                  </select>
+              </p>
+              <p>
+                Selecciona Periférico salida:
+                  <select name="opciones" size="1" >
+                      <optgroup label="Periferico">      
+                      <option value="Monitor">Newskill Icarus IC27I4K144 27" LED IPS UltraHD 4K 144Hz G-Sync Compatible	</option>
+                      <option value="Altavoz">Tempest M20 RGB Master 2.0 Altavoces Gaming con Bluetooth Negros</option> 
+                  </optgroup>
+                  </select>
+              </p>
+              <p>
+                Selecciona Periférico Entrada Salida:
+                  <select name="opciones" size="1">
+                      <optgroup label="Periferico">      
+                      <option value="Router">TP-Link M7010 Router Móvil WiFi 4G LTE</option>
+                      <option value="PenDrive">Sandisk Ultra Flair 256GB USB 3.0 </option> 
+                  </optgroup>
+                  </select>
+              </p>
+              <p>
+                Selecciona Almacenamiento Principal:
+                  <select name="opciones" size="1">
+                      <optgroup label="Almacenamiento">      
+                      <option value="SSD">Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4</option>
+                      <option value="HDD">Western Digital Blue HDD 1TB 7200rpm SATA3</option> 
+                  </optgroup>
+                  </select>
+              </p>
+              <p>
+                Selecciona Almacenamiento Secundario:
+                  <select name="opciones" size="1">
+                      <optgroup label="Almacenamiento">      
+                      <option value="SSD">Kingston NV2 1TB SSD PCIe 4.0 NVMe Gen 4x4</option>
+                      <option value="HDD" selected>Western Digital Blue HDD 1TB 7200rpm SATA3</option> 
+                  </optgroup>
+                  </select>
+              </p>
+            <p>
                 Selecciona Sistema Operativo:</p>
                   <input type="radio" name="SO" value="W"> Windows 
                   <input type="radio" name="SO" value="L"> Linux
