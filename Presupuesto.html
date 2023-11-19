@@ -27,6 +27,12 @@
         <div class="faq">
         <form action="https://localhost/presupuesto.php" method="get">
             <p>
+                Selecciona Sistema Operativo:</p>
+                  <input type="radio" name="SO" value="W"> Windows 
+                  <input type="radio" name="SO" value="L"> Linux
+                  <input type="radio" name="SO" value="M"> Mac
+                  <input type="radio" name="SO" value="N"> Sin SO
+            <p>
                 Selecciona el color de la caja:
                   <select name="opciones" size="1" >
                       <optgroup label="Color">      
@@ -46,7 +52,9 @@
             Correo Electrónico <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
             <br> <br>
             Teléfono <input type="tel" type="tel" pattern="[0-9]{9}" required>
-            
+            <br><br>
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Borrar"> 
         </form>
     </div>
         <footer>
